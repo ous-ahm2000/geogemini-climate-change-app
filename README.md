@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## GeoGemini
 
-## Getting Started
+GeoGemini is a React-based Next.js app web app that integrates the Gemini API to analyze satellite imagery for environmental changes, natural disasters, and pollution indexes. By comparing satellite timelapses in video or series of imageries formats, GeoGemini leverages AI to unlock new capabilities in image and video analysis every year, helping to detect and track climate change impacts.
 
-First, run the development server:
+---
+
+### Getting Started
+
+To run GeoGemini locally, follow these steps:
+
+1. **Install dependencies**:
+   Open your terminal and run the following command to install the necessary dependencies:
+
+   ```bash
+   npm install
+```
+2. **Run the development server** : After the dependencies are installed, start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+3. **Access the app**: Open your browser and go to http://localhost:3000 to see the app in action.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Usage
 
-## Learn More
+To use GeoGemini, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Upload your timelapse video or series of satellite images:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+You can upload either a video or a series of images that represent a time-lapse of the area you want to analyze.
+2. **Select the type of analysis:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ Choose the type of analysis you want to run (e.g., vegetation and forestry ,atmosphere and air pollution, ocean and water bodies , snow and glaciers , urban areas , volcanoes ).
+3. **Analyze:**
 
-## Deploy on Vercel
+After selecting the analysis type, click "Analyze" to process the data.
+3. **Analysis report:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A report will be generated detailing the detected changes and their impact on climate change, such as deforestation, pollution, or natural disasters.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+### Additional Information
+ 
+ **sattelite imagery timelapses**: you can refer to  sentinel hub to downlaod your own sattelite imagery.
+
+**Results**: The results will include visualizations and insights on environmental changes based on the input data.
+
+---
+
+
