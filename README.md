@@ -42,7 +42,8 @@ You can upload either a video or a series of images that represent a time-lapse 
 
 2. **Select the type of analysis:**
 
- Choose the type of analysis you want to run (e.g., vegetation and forestry ,atmosphere and air pollution, ocean and water bodies , snow and glaciers , urban areas , volcanoes ).
+ Choose the type of analysis you want to run (e.g., vegetation and forestry ,atmosphere and air pollution, ocean and water bodies , snow and glaciers , urban areas , volcanoes ). 
+ check folder timelapses for imagery and video examples to test with.
 
 3. **Analyze:**
 
