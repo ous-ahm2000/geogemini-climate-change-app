@@ -1,0 +1,117 @@
+/* src/app/Home.module.css */
+
+.container {
+  background: linear-gradient(to bottom, #e6f4ea, #f4f9f4); /* Gradient background */
+  padding: 2rem;
+  border-radius: 12px;
+  color: #3e4b3d;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between; /* Center items */
+  align-items: center; /* Align items vertically */
+  background-color: #d0e2d1;
+  padding: 1rem 2rem; /* Increased padding */
+  border-radius: 0 0 12px 12px; /* Rounded bottom corners */
+}
+
+.header .nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header .navLink {
+  text-decoration: none;
+  color: #558b2f;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease; /* Added transform for button effect */
+}
+
+.header .navLink:hover {
+  color: #33691e;
+  transform: scale(1.05); /* Button hover effect */
+}
+
+.main {
+  min-height: 80vh;
+  padding: 4rem 2rem; /* Increased padding */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f4f9f4; /* Light background color */
+}
+
+.main h1 {
+  font-size: 2.5rem;
+  color: #3e4b3d;
+  margin-bottom: 1rem;
+}
+
+.main p {
+  font-size: 1.125rem; /* Slightly larger text */
+  color: #5f6f5f;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #3e4b3d;
+  color: #e6f4ea;
+  padding: 1rem 2rem;
+  border-radius: 12px; /* Rounded corners */
+  text-align: center;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #e6f4ea;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
